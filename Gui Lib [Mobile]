@@ -301,7 +301,52 @@ wait(.1)
 Barload:TweenSize(UDim2.new(0, 190,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 LoadText.Text = "loading..."
 
-wait(3)
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 200,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 210,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading.."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 220,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading..."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 230,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 240,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading.."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 250,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading..."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 260,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 270,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading.."
+
+wait(.1)
+
+Barload:TweenSize(UDim2.new(0, 280,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading..."
+
+wait(1)
 
 Barload:TweenSize(UDim2.new(0, 292,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 LoadText.Text = "Ready!"
