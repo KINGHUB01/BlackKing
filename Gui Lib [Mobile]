@@ -4,11 +4,11 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
-local PresetColor = Color3.fromRGB(255, 0, 0)
+local PresetColor = Color3.fromRGB(0,0,0)
 local CloseBind = Enum.KeyCode.RightControl
 
 local knixhub = Instance.new("ScreenGui")
-knixhub.Name = "BlackKing | Mobile"
+knixhub.Name = "BlackKing"
 knixhub.Parent = game.CoreGui
 knixhub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -86,8 +86,8 @@ end
 end
 
 function lib:Window(text, preset, closebind)
-CloseBind = closebind or Enum.KeyCode.RightControl
-PresetColor = preset or Color3.fromRGB(44, 120, 224)
+CloseBind = closebind or Enum.KeyCode.End
+PresetColor = preset or Color3.fromRGB(0, 0, 0)
 fs = false
 local Main = Instance.new("Frame")
 local TabHold = Instance.new("Frame")
@@ -180,7 +180,7 @@ LoadTitle.BackgroundTransparency = 1.000
 LoadTitle.Position = UDim2.new(0.0432743616, 0, 0.1125011, 0)
 LoadTitle.Size = UDim2.new(0, 200, 0, 23)
 LoadTitle.Font = Enum.Font.GothamSemibold
-LoadTitle.Text = "BlackKing | Mobile"
+LoadTitle.Text = "BlackKing Mobile"
 LoadTitle.TextColor3 = Color3.fromRGB(68, 68, 68)
 LoadTitle.TextSize = 12.000
 LoadTitle.TextXAlignment = Enum.TextXAlignment.Left
@@ -209,24 +209,54 @@ TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 wait(.6)
 
 Barload:TweenSize(UDim2.new(0, 50,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Checking game..."
+LoadText.Text = "loading"
 
-wait(1)
+wait(0.5)
 
 Barload:TweenSize(UDim2.new(0, 100,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Getting data..."
+LoadText.Text = "loading."
 
-wait(.5)
+wait()
+
+Barload:TweenSize(UDim2.new(0, 120,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading.."
+
+wait()
+
+Barload:TweenSize(UDim2.new(0, 130,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading..."
+
+wait()
+
+Barload:TweenSize(UDim2.new(0, 140,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading."
+
+wait()
 
 Barload:TweenSize(UDim2.new(0, 150,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Executing script..."
+LoadText.Text = "loading.."
 
-wait(.5)
+wait()
 
-Barload:TweenSize(UDim2.new(0, 200,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
-LoadText.Text = "Getting ready.."
+Barload:TweenSize(UDim2.new(0, 160,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading..."
 
-wait(.5)
+wait()
+
+Barload:TweenSize(UDim2.new(0, 170,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading."
+
+wait()
+
+Barload:TweenSize(UDim2.new(0, 180,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading.."
+
+wait()
+
+Barload:TweenSize(UDim2.new(0, 190,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
+LoadText.Text = "loading..."
+
+wait()
 
 Barload:TweenSize(UDim2.new(0, 292,0, 2), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 LoadText.Text = "Ready!"
