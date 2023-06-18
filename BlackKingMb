@@ -15,4 +15,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-o
   elseif game.PlaceId == 12696293710 then --- DOORS but kinda cheap and shorter [In The Room]
 loadstring(game:HttpGet("https://pastebin.com/raw/Be1Rn3Zc"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/DOORS%20but%20kinda%20cheap%20and%20shorter%20%5BMobile%5D"))()
+  elseif game.PlaceId == 12398966422 then --- Doors But Decent
+loadstring(game:HttpGet("https://pastebin.com/raw/Be1Rn3Zc"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20But%20Decent%20Mobile"))()
 end
