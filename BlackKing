@@ -12,4 +12,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-o
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/DOORS%20but%20kinda%20cheap%20and%20shorter"))()
   elseif game.PlaceId == 4747388345 then --- Kram Life [BETA]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Kram%20Life%20%5BBETA%5D"))()
+  elseif game.PlaceId == 12398966422 then --- Doors But Decent
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20But%20Decent"))()
 end
