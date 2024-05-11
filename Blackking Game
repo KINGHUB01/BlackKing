@@ -83,6 +83,13 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Icon = "rbxassetid://1234567890" -- Optional
 })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Ninja%20Fighting%20Simulator"))()
+  elseif game.PlaceId == 14247606802 then --- Curse Battlegrounds
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification", -- Required
+	Text = "Game Support " .. "[" .. GameP .. "]", -- Required
+	Icon = "rbxassetid://1234567890" -- Optional
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/CurseBattlegrounds"))()
   else -- Not Support
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Notification", -- Required
