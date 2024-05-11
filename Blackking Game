@@ -90,7 +90,14 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Icon = "rbxassetid://1234567890" -- Optional
 })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/CurseBattlegrounds"))()
-  elseif game.PlaceId == 15094401216 or 16767832520 then --- Limitless Purple and v3
+  elseif game.PlaceId == 15094401216 then --- Limitless Purple and v3
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification", -- Required
+	Text = "Game Support " .. "[" .. GameP .. "]", -- Required
+	Icon = "rbxassetid://1234567890" -- Optional
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Limitless%20Purple"))()
+  elseif game.PlaceId == 16767832520 then --- Limitless Purple v3
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Notification", -- Required
 	Text = "Game Support " .. "[" .. GameP .. "]", -- Required
