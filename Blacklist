@@ -1,0 +1,28 @@
+print("Checking Blacklist")
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification", -- Required
+	Text = "Checking Blacklist Pls Wait For Script", -- Required
+	Icon = "rbxassetid://13264701341" -- Optional
+})
+wait(0.5)
+
+if game.Players.LocalPlayer.UserId == 877115398 then
+game.Players.LocalPlayer:Kick("You Got Blacklist!.")
+
+local Sound = Instance.new("Sound")
+Sound.Parent = game.SoundService
+Sound.SoundId = "rbxassetid://1409001904"
+Sound.Volume = 5
+Sound.PlayOnRemove = true
+Sound:Destroy()
+
+else
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification", -- Required
+	Text = "Your Account Not Blacklist", -- Required
+	Icon = "rbxassetid://13264701341" -- Optional
+})
+
+end
