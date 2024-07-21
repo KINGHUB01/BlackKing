@@ -111,6 +111,20 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Icon = "rbxassetid://13264701341" -- Optional
 })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/The%20Weakest%20Battleground"))()
+  elseif game.PlaceId == 10449761463 then --- The Strongest Battlegrounds
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification", -- Required
+	Text = "Game Support " .. "[" .. GameP .. "]", -- Required
+	Icon = "rbxassetid://13264701341" -- Optional
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/TheSB"))()
+  elseif game.PlaceId == 12360882630 then --- The Strongest Battlegrounds Lobby
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification", -- Required
+	Text = "Game Support " .. "[" .. GameP .. "]", -- Required
+	Icon = "rbxassetid://13264701341" -- Optional
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/TheSB"))()
   else -- Not Support
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Notification", -- Required
