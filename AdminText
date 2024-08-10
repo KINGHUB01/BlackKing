@@ -1,13 +1,13 @@
 while wait(1) do
      pcall(function()
-     if game.Players:FindFirstChild("KING_HUBNo1") then
+     if game.Players:FindFirstChild("hhshahfhfhahsh") then
 
-            if not game.Players["KING_HUBNo1"].Character.Head:FindFirstChild("ESP") then
+            if not game.Players["hhshahfhfhahsh"].Character.Head:FindFirstChild("ESP") then
 
 local Texts = "Blackking-Owner"
 local BillboardGui = Instance.new("BillboardGui")
 local TextLabel = Instance.new("TextLabel")
-BillboardGui.Parent = game.Players["KING_HUBNo1"].Character.Head
+BillboardGui.Parent = game.Players["hhshahfhfhahsh"].Character.Head
 BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 BillboardGui.Active = true
 BillboardGui.Name = "ESP"
